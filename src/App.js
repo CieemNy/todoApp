@@ -51,7 +51,6 @@ function App() {
     }
     else{
       let todoLocal = JSON.parse(localStorage.getItem("todos"));
-      console.log(todoLocal);
       setTodos(todoLocal);
     }
   };
